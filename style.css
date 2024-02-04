@@ -1,0 +1,73 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "News Cycle", sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  background: #eeeeee;
+}
+
+article h1 {
+  color: #0974b3;
+  font-size: 30px;
+}
+
+.newton {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.einstein {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.tesla {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+article {
+  background: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-top: 5px solid #0974b3;
+  line-height: 20px;
+  overflow: hidden;
+  max-width: 880px;
+}
+
+article .quote {
+  font-style: italic;
+}
+
+article .lead {
+  margin: 15px 0;
+}
+
+article .date {
+  margin: 10px 0;
+  color: gray;
+}
+
+article.half {
+  float: left;
+  width: 425px;
+  margin-right: 30px;
+}
